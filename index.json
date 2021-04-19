@@ -1,0 +1,44 @@
+{
+  "line": {
+    "type": "text",
+    "label": "Main text for point redemption",
+    "value": "Loki chosed the number {number}!"
+  },
+  "ttsLang": {
+    "type": "text",
+    "label": "Locale for TTS (text-to-speech)",
+    "value": "en"
+  },
+  "titleSize": {
+    "type": "number",
+    "label": "Size used for the main text (in px)",
+    "value": 50
+  },
+  "titleColor": {
+    "type": "colorpicker",
+    "label": "Color used for the main text",
+    "value": "purple"
+  },
+  "titleStyle": {
+    "type": "googleFont",
+    "label": "Main text font family",
+    "value": "Oswald"
+  },
+  "showTime": {
+    "type": "number",
+    "label": "Duration time (in ms)",
+    "value": 7500
+  },
+  "audioUrl": {
+    "type": "sound-input",
+    "label": "Audio played on command"
+  },
+  "audioVolume": {
+    "type": "slider",
+    "label": "Audio volume",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 5
+  }
+}
