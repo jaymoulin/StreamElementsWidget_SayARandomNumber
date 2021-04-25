@@ -1,6 +1,6 @@
-# Channel Point Redeemer
+# Say A Random Number
 
-Displays a video/image and plays a sound when channel points are redeemed.
+Chose a random number when streamer uses !d<number> command and say it out loud
 
 [![PayPal donation](https://github.com/jaymoulin/jaymoulin.github.io/raw/master/ppl.png "PayPal donation")](https://www.paypal.me/jaymoulin)
 [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png "Buy me a coffee")](https://www.buymeacoffee.com/jaymoulin)
