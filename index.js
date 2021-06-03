@@ -24,7 +24,7 @@ window.addEventListener('onEventReceived', function (obj) {
     let matches = data["text"].match(commandRegexp)
     console.log("Playing audio", audioUrl)
     let container = document.getElementById('random-number')
-    container.setAttribute("style", 'font-size: {titleSize}px;color:{titleColor};font-family: "{titleStyle}", sans-serif;');
+    container.setAttribute("style", 'font-size: {titleSize}px;color:{titleColor};font-family: "{titleStyle}", sans-serif;')
 
 
     let audio = new Audio()
@@ -38,8 +38,8 @@ window.addEventListener('onEventReceived', function (obj) {
             return text
         })
         .then(text => GoogleTTS.textToSpeech(text, ttsLang || 'en'))
-        .then(async _ => await sleep(parseInt(showTime || 7500)))
         .catch(e => console.error(e))
+        .then(async _ => await sleep(parseInt(showTime || 7500)))
         .finally(_ => container.setAttribute("class", "hide"))
     audio.play()
 })

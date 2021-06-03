@@ -1,9 +1,9 @@
 {
-  "name": "pointsoverlay",
+  "name": "sayarandomnumber",
   "version": "1.0.1",
-  "description": "Twitch Channel Points Overlay",
+  "description": "Twitch Says a Random Number",
   "main": "index.js",
-  "repository": "https://github.com/jaymoulin/StreamElementsWidget/ChannelPointRedeemer/",
+  "repository": "https://github.com/jaymoulin/StreamElementsWidget_SayARandomNumber/",
   "author": "Jay MOULIN",
   "license": "MIT"
 }
