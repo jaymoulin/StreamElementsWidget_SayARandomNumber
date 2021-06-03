@@ -1,7 +1,7 @@
 const GoogleTTS = require('./tts')
 
 let line = '{line}'
-let showTime = '{showtime}'
+let showTime = '{showTime}'
 let audioUrl = '{audioUrl}'
 let audioVolume = '{audioVolume}'
 let ttsLang = '{ttsLang}'
